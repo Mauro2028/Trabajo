@@ -1,0 +1,18 @@
+p {
+  color: rgb(67, 67, 173);
+  text-align: left;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 200px;
+}
+.logoFooter {
+  box-sizing: content-box;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(180, 180, 180) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding: 10px;
+}
