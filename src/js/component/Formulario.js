@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Servicios from "./Servicios";
 
 const Formulario = () => {
 	const stilo = () => {
@@ -7,6 +8,7 @@ const Formulario = () => {
 	};
 	return (
 		<div>
+			<Servicios />
 			<h1 style={{ display: "flex", justifyContent: "center", marginTop: "15px" }}>Contacto</h1>
 			<div className="row align-items-start">
 				<div className="col" style={{ marginLeft: "40px", border: "3px solid #000" }}>
