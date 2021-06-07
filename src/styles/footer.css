@@ -1,9 +1,8 @@
 p {
   color: rgb(67, 67, 173);
-  text-align: left;
-  margin: 20px;
-  padding: 20px;
-  margin-left: 200px;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 20px;
 }
 .logoFooter {
   box-sizing: content-box;
@@ -15,4 +14,15 @@ p {
     rgba(0, 0, 0, 1) 100%
   );
   padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .col {
+    width: 50%;
+  }
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
 }
